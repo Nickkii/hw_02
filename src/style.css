@@ -1,0 +1,94 @@
+#root{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+	flex-direction: column;
+
+}
+thead{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+table tbody td {
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+table thead tr th:first-child, table tbody tr td:first-child {
+	border-left: none;
+}
+table thead tr th:last-child, table tbody tr td:last-child {
+	border-right: none;
+}
+table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+li{
+	list-style-type: none;
+	padding: 0 20px;
+}
+
+li a{
+	text-decoration: none;
+}
+.navMenu{
+	display: flex;
+    justify-content: center;
+	margin: 20px 20px 60px 20px;
+	    font-size: 25px;
+}
+.step{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.stepOne{
+	width: 33%;
+}
+
+
+.musicJassOne{
+	display: flex;
+    justify-content: space-around;
+	margin: 10px 0;
+}
+.timeOne{
+	color: grey;
+}
+.songTitleOne{
+	width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.songTitleOne p{
+	margin: 0;
+}
+.musicJass{
+	margin-top: 20px;
+}
+.songTitleOne p:first-child{
+	font-size: 30px;
+}
